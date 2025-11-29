@@ -69,6 +69,10 @@ This project demonstrates:
 
 - **Conditional Rendering**: Showing error messages and updating labels based on app state.
 
+## 📸 Screenshots
+
+![interface](src/assets/react-temp-toggle.png)
+
 ## 🤝 Contributing
 
 #### Contributions are welcome!
