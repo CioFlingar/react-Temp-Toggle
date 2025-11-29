@@ -1,16 +1,86 @@
-# React + Vite
+# 🌡️ React Temperature Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, two-way temperature conversion application built with **React** and **Tailwind CSS**.
+This project demonstrates fundamental React concepts including state management, controlled components, and conditional rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Two-Way Conversion**: Seamlessly convert between Celsius (°C) and Fahrenheit (°F).
+- **Real-Time Calculation**: Results update instantly as you type.
+- **Input Validation**: Visual error feedback and validation for non-numeric inputs.
+- **Clean UI**: Modern, responsive design using Tailwind CSS and Lucide icons.
+- **Unit Toggling**: One-click switching between input units with automatic state clearing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally.
+
+### **Prerequisites**
+
+- Node.js installed on your machine.
+
+### **Installation**
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/CioFlingar/react-Temp-Toggle.git
+cd react-temp-toggle
+```
+
+#### 2. Install dependencies
+
+```bash
+npm install
+```
+
+#### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+### Open in Browser
+
+Visit:
+👉 http://localhost:5173
+
+## 🛠️ Technology Stack
+
+- **Framework**: React (Vite Template)
+
+- **Styling**: Tailwind CSS
+
+- **Icons**: Lucide React
+
+## 🧠 Concepts Learned
+
+This project demonstrates:
+
+- **useState Hook**: Managing multiple state variables (temperature, unit, error).
+
+- **Controlled Components**: Input fields fully synced with React state.
+
+- **Derived State**: Computing converted values dynamically without extra state variables.
+
+- **Conditional Rendering**: Showing error messages and updating labels based on app state.
+
+## 🤝 Contributing
+
+#### Contributions are welcome!
+
+Feel free to open an issue or submit a pull request for improvements, bug fixes, or new features.
+
+## 📄 License
+
+This project is open-source.
+
+## Author
+
+- **Walid Hasan**
+- **Email:** [eng.walidhasan@gmail.com](eng.walidhasan@gmail.com)
+- **LinkedIn:** [linkedin.com/in/walid-hasan-](linkedin.com/in/walid-hasan-/)
